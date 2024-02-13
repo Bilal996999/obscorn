@@ -1,0 +1,628 @@
+@media (max-width: 1399px){
+    .hero-content .hero-para {
+        font-size: 18px;
+    }
+    
+    .bi-hero .row .img-fluid {
+        max-width: 900px;
+        height: 750px;
+        right: 2%;
+    }
+    
+    .hero-content h1 {
+        font-size: 3.533vw;
+    }
+    
+    .hero-content h1 .theme-color {
+        font-size: 1.971vw;
+    }
+    .top-content .main-heading{
+        font-size: 3vw;
+        line-height: 52px;
+    }
+    .top-content .sub-heading {
+        font-size: 22px;
+    }
+    
+    .top-content .main-para {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .experience-box-wrapper h3 {
+        font-size: 24px;
+        line-height: 1.3em;
+    }
+    
+    .experience-box-wrapper p {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .experience-box-wrapper {
+        padding: 40px 20px;
+        height: 390px;
+    }
+    .about-content h3 {
+        font-size: 2.522vw;
+        line-height: 1.2em;
+    }
+    
+    .about-content p {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+    .technology-tabs-wrapper .nav-tabs .nav-link {
+        font-size: 21px;
+    }
+    
+    .tech-img-wrapper {
+        max-width: 190px;
+        height: 190px;
+    }
+    
+    .tech-img-wrapper h3 {
+        font-size: 16px;
+    }
+    .counter-wrapper h3 {
+        font-size: 30px;
+    }
+    
+    .counter-wrapper p {
+        font-size: 17px;
+    }
+    
+    .slider-para {
+        font-size: 18px;
+        line-height: 1.4em;
+    }
+    
+    .available-wrapper p {
+        font-size: 18px;
+    }
+    .testimonial-item .testimonial-content {
+        font-size: 22px;
+        line-height: 1.4em;
+    }
+    
+    .testimonial-item {
+        padding: 70px 80px;
+    }
+
+    .faq-accordion .accordion .accordion-item .accordion-header button {
+        font-size: 23px;
+        padding: 35px 20px;
+    }
+    .bi-cta{
+        padding-inline: 50px;
+    }
+    .footer-form h3 {
+        font-size: 40px;
+    }
+    
+    .bi-last {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 1199px){
+    .hero-content .hero-para {
+        font-size: 17px;
+    }
+    
+    .bi-hero .row .img-fluid {
+        max-width: 800px;
+        height: 700px;
+        right: 2%;
+    }
+    
+    .hero-content h1 {
+        font-size: 3.333vw;
+    }
+    
+    .hero-content h1 .theme-color {
+        font-size: 1.771vw;
+    }
+    .bi-btn {
+        font-size: 15px;
+    }
+    
+    .form-wrapper .field-wrapper .field {
+        font-size: 15px;
+    }
+    .logo-heading h2 {
+        font-size: 2vw;
+    }
+    :is(.bi-featured-logo, .bi-testimonials) .d-flex{
+        flex-wrap:wrap;
+    }
+    
+    :is(.bi-featured-logo, .bi-testimonials) .d-flex img {
+        max-width: 80px;
+    }
+    .top-content .main-heading {
+        font-size: 3vw;
+        line-height: 44px;
+    }
+    
+    .top-content .sub-heading {
+        font-size: 20px;
+    }
+    
+    .top-content .main-para {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .experience-box-wrapper {
+        justify-content: center;
+        align-items: start;
+    }
+    .about-content h3 {
+        font-size: 2.722vw;
+    }
+    
+    .about-content p {
+        font-size: 17px;
+        line-height: 1.5em;
+    }
+    .technology-tabs-wrapper .nav-tabs {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    
+    .technology-tabs-wrapper .nav-tabs .nav-link {
+        width: 235px;
+        font-size: 19px;
+    }
+    .tab-content .d-flex {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    
+    .tech-img-wrapper {
+        min-width: 275px;
+        height: 190px;
+    }
+    .slider-content.ps-5 {
+        padding-left: 20px !important;
+    }
+    
+    .slider-para {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+    
+    .available-wrapper p {
+        font-size: 16px;
+    }
+    
+    .counter-wrapper h3 {
+        font-size: 24px;
+    }
+    
+    .counter-wrapper p {
+        font-size: 15px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-header button {
+        font-size: 21px;
+        padding: 28px 20px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-body{
+        font-size: 15px !important;
+    }
+    .bi-footer .footer-content {
+        margin-left: 100px;
+    }
+    .footer-form form .footer-field {
+        height: 65px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px){
+    .form-wrapper {
+        padding: 40px 30px;
+    }
+    
+    .form-wrapper .field-wrapper {
+        margin-bottom: 25px;
+    }
+    
+    .bi-hero .row .img-fluid {
+        max-width: 650px;
+        height: 500px;
+        right: 2%;
+    }
+    
+    .hero-content .hero-para {
+        font-size: 16px;
+    }
+    
+    .hero-content h1 {
+        font-size: 3vw;
+    }
+    
+    .bi-btn {
+        padding: 16px 25px 16px 45px;
+        font-size: 15px;
+    }
+    
+    .form-wrapper h3 {
+        font-size: 2vw;
+    }
+    :is(.bi-featured-logo, .bi-testimonials).d-flex img {
+        max-width: 60px;
+    }
+    .top-content .main-heading {
+        font-size: 3.9vw;
+        line-height: 44px;
+        margin: 18px 0 20px;
+    }
+    
+    .top-content .sub-heading {
+        font-size: 18px;
+    }
+    .about-content h3 {
+        font-size: 3.722vw;
+    }
+    
+    .about-content p {
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+    
+    .about-content.ps-4 {
+        padding-left: 0 !important;
+        padding-top: 30px;
+    }
+    
+    .bi-about .col-lg-6 img {
+        max-width: 500px;
+    }
+    .technology-tabs-wrapper .nav-tabs .nav-link {
+        font-size: 17px;
+        padding: 20px 0;
+    }
+    .portfolio-slider {
+        padding: 55px 35px;
+    }
+    
+    .slider-para {
+        font-size: 14px;
+        line-height: 1.4em;
+    }
+    
+    .counter-wrapper h3 {
+        font-size: 18px;
+    }
+    
+    .counter-wrapper p {
+        font-size: 12px;
+    }
+    .testimonial-item {
+        padding: 50px 60px;
+    }
+    
+    .testimonial-item .testimonial-content {
+        font-size: 19px;
+        line-height: 1.4em;
+    }
+    .bi-testimonials .d-flex.flex-grow-1.align-items-center.justify-content-between{
+        gap: 10px;
+    }
+    .bi-testimonials .logo-heading h2 {
+        font-size: 1.6vw;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-header button {
+        font-size: 18px;
+        padding: 20px 20px;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-body {
+        font-size: 14px !important;
+    }
+    
+    .cta-wrapper .top-content{
+        text-align: center;
+    }
+    .cta-wrapper .top-content .bi-btn{
+        margin: auto;
+    }
+    .bi-cta .cta-wrapper{
+        padding: 70px 20px;
+    }
+    .bi-cta{
+        padding-inline: 25px;
+    }
+    .bi-footer .footer-content {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 767px){
+    body{
+        text-align: center;
+    }
+    .bi-hero .row .img-fluid {
+        max-width: 100%;
+        height: 700px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        object-position: -40px 80px;
+        object-fit: contain;
+    }
+    .hero-content {
+        padding-top: 80px;
+    }
+    
+    .hero-content h1 {
+        font-size: 5vw;
+    }
+    
+    .hero-content h1 .theme-color {
+        font-size: 2.771vw;
+    }
+    
+    .hero-content .hero-para {
+        font-size: 18px;
+    }
+    
+    .bi-hero .bi-btn {
+        margin: auto;
+    }
+    .bi-featured-logo .d-flex:first-child {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bi-featured-logo .d-flex:last-child {
+        gap: 20px;
+    }
+    .bi-testimonials .d-flex:first-child {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .logo-heading h2 {
+        font-size: 3vw;
+    }
+    .top-content .main-heading {
+        font-size: 4.2vw;
+        line-height: 38px;
+    }
+    
+    .top-content .main-para {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .top-content .sub-heading {
+        font-size: 17px;
+    }
+    .experience-box-wrapper {
+        align-items: center;
+        padding: 50px;
+        height: 330px;
+    }
+    .bi-about .bi-btn {
+        margin: auto;
+    }
+    .technology-tabs-wrapper .nav-tabs .nav-link {
+        font-size: 17px;
+        padding: 20px 0;
+    }
+    
+    .technology-tabs-wrapper .nav-tabs .nav-link {
+        font-size: 15px;
+        padding: 18px 0;
+    }
+    
+    .tech-img-wrapper {
+        min-width: 220px;
+        height: 170px;
+    }
+    .slider-img img {
+        height: 375px;
+    }
+    
+    .slider-content.ps-5 {
+        padding-left: 0 !important;
+        padding-top: 35px;
+        text-align: center !important;
+    }
+    
+    .available-wrapper {
+        justify-content: center !important;
+    }
+    
+    .portfolio-slider .bi-btn.transparent {
+        margin: auto;
+    }
+    .slider-para{
+        padding-right: 0;
+    }
+    .bi-testimonials .logo-heading h2 {
+        font-size: 2.6vw;
+    }
+    .d-flex.client {
+        flex-direction: column !important;
+    }
+    .d-flex.client .d-flex{
+        flex-direction: column !important;
+    }
+    .testimonial-item .testimonial-content {
+        font-size: 17px;
+        line-height: 1.4em;
+    }
+    .bi-testimonials .bi-btn {
+        margin:auto;
+    }
+    .brand-logo-wrapper {
+        margin-top: 60px;
+        justify-content: center !important;
+    }
+    .faq-accordion .accordion .accordion-item .accordion-header button {
+        font-size: 14px;
+        padding: 13px 20px;
+    }
+    
+    .faq-accordion .accordion .accordion-item .accordion-body {
+        padding: 25px 20px;
+        font-size: 13px !important;
+    }
+    
+    .faq-accordion .accordion .accordion-item .accordion-header button:after {
+        width: 25px;
+        height: 25px;
+        background-size: 13px;
+    }
+    .bi-cta .cta-wrapper{
+        padding: 60px 15px;
+    }
+    .bi-cta .cta-wrapper .bi-btn{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px){
+    .bi-hero .row .img-fluid {
+        max-width: 100%;
+        height: 580px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        object-position: -30px 80px;
+        object-fit: contain;
+    }
+    
+    .hero-content {
+        padding-top: 80px;
+    }
+    .hero-content .hero-para {
+        font-size: 16px;
+    }
+    .hero-content h1 .theme-color {
+        font-size: 18px;
+    }
+    .hero-content h1 {
+        font-size: 30px;
+        line-height: 1.4em;
+    }
+    .bi-hero .bi-btn {
+        font-size: 12px;
+    }
+    .logo-heading h2 {
+        font-size: 4vw;
+    }
+    :is(.bi-featured-logo, .bi-testimonials) .d-flex img{
+        max-width: 40px;
+    }
+    .top-content .main-heading {
+        font-size: 22px;
+        line-height: 1.4em;
+    }
+    .top-content .sub-heading {
+        font-size: 16px;
+    }
+    
+    .top-content .main-para {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .experience-box-wrapper h3 {
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+    
+    .experience-box-wrapper p {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .about-content h3 {
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+    
+    .about-content p {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .bi-experience {
+        padding: 80px 0;
+    }
+    .bi-about .col-lg-6 img {
+        max-width: 100%;
+    }
+    .technology-tabs-wrapper .nav-tabs .nav-link {
+        min-width: 170px;
+    }
+    
+    .technology-tabs-wrapper .nav-tabs {
+        justify-content: start !important;
+    }
+    .tech-img-wrapper {
+        min-width: 200px;
+        height: 150px;
+    }
+    .bi-technologies{
+        padding: 80px 0;
+    }
+    .d-flex.counter {
+        flex-direction: column;
+    }
+    
+    .counter-wrapper {
+        margin-right: 0;
+        border: none;
+    }
+    
+    .counter-wrapper h3 {
+        font-size: 23px;
+    }
+    
+    .counter-wrapper p {
+        font-size: 16px;
+    }
+    .testimonial-item {
+        padding: 50px 30px;
+    }
+    .testimonial-item .testimonial-content {
+        font-size: 15px;
+        line-height: 1.4em;
+    }
+    
+    .author {
+        font-size: 14px;
+    }
+    
+    .d-flex.client img {
+        max-width: 100px !important;
+    }
+    .bi-testimonials{
+        padding: 100px 0;
+    }
+    .bi-last {
+        padding: 20px 0;
+    }
+    .bi-last .d-flex {
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .bi-last .flex-grow-1:last-child .d-flex:last-child {
+        padding-top:20px;
+        flex-direction: row;
+    }
+    .bi-header .d-flex {
+        flex-direction: column;
+        gap: 18px;
+    }
+    
+    .bi-header .d-flex .bi-btn {
+        padding: 10px 15px 10px 40px;
+    }
+    
+    .bi-btn:before {
+        left: 14px;
+        width: 13px;
+        height: 13px;
+    }
+}
