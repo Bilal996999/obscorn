@@ -136,6 +136,18 @@ input{
     color: var(--themeColor);
     font-weight: 800;
 }
+.bi-header{
+    transition: all .4s linear;
+    height: 90px;
+    z-index: 9999;
+}
+.bi-header.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    background-color: #004832;
+    padding-bottom: 15px;
+    box-shadow: 0 3px 10px #00483275;
+}
 .bi-btn.header:before{
     content: unset;
     padding: 18px 30px;
@@ -191,7 +203,7 @@ input{
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: url('../img/hero.jpg') no-repeat center;
+    background: url('../img/hero.webp') no-repeat center;
     background-size: cover;
 }
 .hero-content{
@@ -329,7 +341,7 @@ input{
 .bi-about{
     padding: 120px 0;
     background-color: var(--themeSecondary);
-    background-image: url('../img/about-bg.png');
+    background-image: url('../img/about-bg.webp');
     background-position: center left;
     background-size: auto;
     background-repeat: no-repeat;
@@ -406,11 +418,45 @@ input{
 .bi-portfolio .top-content{
     padding-top: 120px;
 }
+.slider-img img{
+    height: 505px;
+    margin: auto;
+}
 .portfolio-slider{
     background-color: #B52D22;
     border-radius: 20px;
     padding: 90px 70px;
     margin-top: 60px;
+}
+.portfolio-slider .slick-slide{
+    transition: .4s all linear;
+    opacity: 0;
+}
+.portfolio-slider .slick-slide.slick-current {
+    opacity: 1;
+}
+.portfolio-slider .slick-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left:0;
+    right:0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    margin: auto;
+    background-color:#fff;
+    color:#000;
+    box-shadow: 0px 0px 10px #00000061
+}
+.portfolio-slider .slick-arrow.slick-prev{
+    margin-left:0;
+    left:-10px;
+}
+.portfolio-slider .slick-arrow.slick-next{
+    margin-right:0;
+    right:-10px;
 }
 .slider-para {
     font-size: 20px;
@@ -464,7 +510,7 @@ input{
     height: 100%;
     top: 0;
     left:0;
-    background: url('../img/testimonial-bg.png') no-repeat bottom;
+    background: url('../img/testimonial-bg.webp') no-repeat bottom;
     background-size: auto;
     z-index: -1;
 }
@@ -553,7 +599,7 @@ input{
     padding: 0;
     background-size:17px;
     background-position: center center;
-    background-image: url('../img/Link.png');
+    background-image: url('../img/Link.webp');
 }
 
 .bi-cta{
@@ -563,7 +609,7 @@ input{
     z-index: 9;
 }
 .bi-cta .cta-wrapper{
-    background: url('../img/cta-bg.png') no-repeat center;
+    background: url('../img/cta-bg.webp') no-repeat center;
     background-size: cover;
     border-radius: 20px;
     padding: 120px 40px;

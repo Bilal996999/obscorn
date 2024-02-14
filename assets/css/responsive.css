@@ -101,6 +101,9 @@
     .bi-last {
         padding: 30px 0;
     }
+    .slider-content img {
+        margin: auto;
+    }
 }
 
 @media (max-width: 1199px){
@@ -173,7 +176,7 @@
         width: 235px;
         font-size: 19px;
     }
-    .tab-content .d-flex {
+    .tab-content .d-sm-flex {
         flex-wrap: wrap;
         justify-content: center !important;
     }
@@ -560,8 +563,46 @@
         justify-content: start !important;
     }
     .tech-img-wrapper {
-        min-width: 200px;
-        height: 150px;
+        min-width: fit-content;
+        height: 100%;
+        padding: 20px 40px;
+        transition: all .3s;
+    }
+    .tabs-slider .item{
+        padding: 20px;
+    }
+    .tabs-slider .item{
+        padding: 20px;
+    }
+    .tabs-slider .item .tech-img-wrapper{
+        transform: scale(0.9);
+        opacity: .4;
+    }
+    .tabs-slider .item.slick-active .tech-img-wrapper{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    .slick-arrow {
+        position: absolute;
+        top: 0;
+        bottom: -230px;
+        left:0;
+        right:0;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: none;
+        margin: auto;
+        background-color:#c6aa57;
+        color:#fff;
+    }
+    .slick-arrow.slick-prev {
+        left:-40px;
+        z-index:9999;
+    }
+    .slick-arrow.slick-next {
+        right:-40px;
+        z-index:9999;
     }
     .bi-technologies{
         padding: 80px 0;

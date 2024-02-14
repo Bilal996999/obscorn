@@ -16,3 +16,39 @@ jQuery('button.back-to-top').click(function() {
   }, 800);
   return false;
 });
+
+jQuery('.tabs-slider').slick({
+  infinite: true,
+  centerMode: true,
+  variableWidth:true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  speed: 900,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:'<button type="button" class="slick-prev"> < </button>',
+  nextArrow:'<button type="button" class="slick-next"> > </button>',
+});
+
+
+window.onscroll = function () {
+  var header = document.querySelector("header");
+  if (window.pageYOffset > 30) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+};
+
+jQuery('.portfolio-slider').slick({
+  infinite: true,
+  centerMode: true,
+  // autoplay: true,
+  // autoplaySpeed: 2000,
+  speed: 900,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:'<button type="button" class="slick-prev"> < </button>',
+  nextArrow:'<button type="button" class="slick-next"> > </button>',
+});
+
