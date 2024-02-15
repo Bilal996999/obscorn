@@ -40,9 +40,8 @@ window.onscroll = function () {
   }
 };
 
-jQuery('.portfolio-slider').slick({
+jQuery('.portfolio-slick').slick({
   infinite: true,
-  centerMode: true,
   // autoplay: true,
   // autoplaySpeed: 2000,
   speed: 900,
