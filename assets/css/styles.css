@@ -728,3 +728,14 @@ input{
 .portfolio-slick .slick-slide:nth-child(odd){
     background-color: #004832 !important;
 }
+#getAQuote {
+    bottom: 0;
+    height: fit-content !important;
+    margin: auto;
+}
+.modal-content .form-wrapper {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: unset;
+}

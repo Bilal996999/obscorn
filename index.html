@@ -38,7 +38,7 @@
 
                         <a href="tel:0529973987" class="bi-btn header d-sm-block d-none"><i
                                 class="fas fa-phone-alt"></i>(052) 997-3987</a>
-                        <a href="#contact" data-scroll-to class="bi-btn d-sm-block d-none">Get a Quote</a>
+                        <a href="#" class="bi-btn d-sm-block d-none" data-bs-toggle="modal" data-bs-target="#getAQuote">Get a Quote</a>
                     </div>
                 </div>
             </div>
@@ -222,7 +222,7 @@
                                 Our trusted and experienced team of mobile app developers in Dubai delivers highly
                                 specialized app development services for all business.
                             </p>
-                            <a data-scroll-to href="#contact" class="bi-btn">Let's Build Together</a>
+                            <a href="#" class="bi-btn" data-bs-toggle="modal" data-bs-target="#getAQuote">Let's Build Together</a>
                         </div>
                     </div>
                 </div>
@@ -917,7 +917,7 @@
                             <p class="main-para">
                                 Get A Pioneering Mobile App Development Company Dubai Onboard To Transform It Real.
                             </p>
-                            <a class="bi-btn" data-scroll-to href="#contact">Let’s Build Together</a>
+                            <a class="bi-btn" href="#" data-bs-toggle="modal" data-bs-target="#getAQuote">Let's Build Together</a>
                         </div>
                     </div>
                 </div>
@@ -1001,8 +1001,46 @@
     
     <div class="mobile-buttons d-sm-none d-block">
         <a href="tel:0529973987" class="mobile-btn"><i class="fas fa-phone-square-alt me-2"></i> (052)997-3987</a>
-        <a href="#" class="mobile-btn"><i class="fas fa-envelope-square me-2"></i> Get a Quote</a>
+        <a href="#" class="mobile-btn" data-bs-toggle="modal" data-bs-target="#getAQuote"><i class="fas fa-envelope-square me-2"></i> Get a Quote</a>
     </div>
+
+    <!-- Button trigger modal -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="getAQuote" tabindex="-1" aria-labelledby="getAQuoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="form-wrapper">
+                <h3>
+                    Get Free Quote !
+                </h3>
+                <form>
+                    <div class="field-wrapper">
+                        <input type="text" placeholder="Your Name*" required class="field" />
+                    </div>
+                    <div class="field-wrapper">
+                        <input type="email" placeholder="Email*" required class="field" />
+                    </div>
+                    <div class="field-wrapper">
+                        <input type="tel" placeholder="Phone*" required class="field" />
+                    </div>
+                    <div class="field-wrapper">
+                        <textarea type="text" placeholder="Your Name*" required class="field text-area"
+                            rows="10"></textarea>
+                    </div>
+                    <div class="field-wrapper mb-0">
+                        <button class="bi-btn form">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <script src="./assets/js/jquery-3.7.0.min.js"></script>
     <script src="./assets/js/font-awesome-15-14-4.min.js"></script>
